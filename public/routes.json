@@ -29,10 +29,6 @@
       "serve": "/.auth/logout"
     },
     {
-      "route": "/calendar/*",
-      "serve": "/calendar.html"
-    },
-    {
       "route": "/specials",
       "serve": "/deals",
       "statusCode": 301
@@ -41,7 +37,7 @@
   "platformErrorOverrides": [
     {
       "errorType": "NotFound",
-      "serve": "/custom-404.html"
+      "serve": "/404.html"
     },
     {
       "errorType": "Unauthenticated",
